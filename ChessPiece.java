@@ -1,14 +1,14 @@
 public class ChessPiece extends Piece {
-    private Color color;
+    private ColorPiece color;
     
-    public ChessPiece(Board board, Color color){
+    public ChessPiece(Board board, ColorPiece color){
         //superconstrutor da minha classe
         super(board);
         this.color = color;
 
     }
 
-    public Color getColor() {
+    public ColorPiece getColor() {
         return color;
     }
 

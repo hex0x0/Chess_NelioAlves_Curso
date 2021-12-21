@@ -1,3 +1,5 @@
+
+
 public class ChessMatch {
     //Regras do jogo de xadrez
 
@@ -7,6 +9,7 @@ public class ChessMatch {
 
     public ChessMatch(){
         board = new Board(8, 8);
+        initialSetup();
     }
 
     public ChessPiece[][] getPieces(){
@@ -27,6 +30,10 @@ public class ChessMatch {
 
     }
 
+    public void initialSetup(){
+        board.placePiece(new King(board, ColorPiece.WHITE), new Position(3, 4));
+        //Está havendo conflito porque existe uma classe como o mesmo nome
+    }
 
 
 }

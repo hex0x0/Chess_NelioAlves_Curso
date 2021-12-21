@@ -14,3 +14,5 @@
 - [x] Criar a classe UI
 - [x] Modificar as classes Board e Main
 - [x] Corrigir erro na classe UI
+- [x] Classe color alterada
+- [x] Classes King, Rook criadas
