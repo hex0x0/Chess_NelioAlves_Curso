@@ -1,6 +1,8 @@
-<<<<<<< HEAD
-# ChessGame
-=======
-# Chess_NelioAlves_Curso
-Jogo de xadrez apresentado no curso do prof. Nélio Alves
->>>>>>> 100ef2321f7100a90bb66dbb2a6a41dbe5fd203e
+# Jogo Xadrez- Curso Nélio Alves
+
+## Esse projeto visa pôr em prática conceitos aprendidos nas fases iniciais do curso
+
+*METAS*
+
+- [x] Criar um classe Main para invocar as outras classes
+- [x] Criar a classe Position 
