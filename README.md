@@ -8,3 +8,9 @@
 - [x] Criar a classe Position 
 - [x] Criar a classe Piece
 - [x] Criar a class Board
+- [x] Criar a classe ChessMatch
+- [x] Criar a classe Color
+- [x] Criar a classe ChessPiece
+- [x] Criar a classe UI
+- [x] Modificar as classes Board e Main
+- [x] Corrigir erro na classe UI
