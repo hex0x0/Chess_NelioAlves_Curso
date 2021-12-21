@@ -1,10 +1,7 @@
 public class Main{
     public static void main(String[] args){
-        int x=12;
-
-        for(int i = 0; i < x; i++){
-            System.out.println(i*12);
-        }
+      Position p = new Position(3, 4);
+      System.out.println(p);
 
     }
 }
