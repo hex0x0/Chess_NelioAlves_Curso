@@ -16,3 +16,4 @@
 - [x] Corrigir erro na classe UI
 - [x] Classe color alterada
 - [x] Classes King, Rook criadas
+- [x] Classe para tratamento de exceções BoardException criada
