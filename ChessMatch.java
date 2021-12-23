@@ -30,9 +30,17 @@ public class ChessMatch {
 
     }
 
+    private void placeNewPiece(char column, int row, ChessPiece piece){
+        board.placePiece(piece, new ChessPosition(column, row).toPosition());
+        
+    }
+
     public void initialSetup(){
-        board.placePiece(new King(board, ColorPiece.WHITE), new Position(3, 4));
+        //board.placePiece(new King(board, ColorPiece.WHITE), new Position(3, 4));
+        //board.placePiece(new King(board, ColorPiece.WHITE), new Position(3, 4));
         //Está havendo conflito porque existe uma classe como o mesmo nome
+
+        placeNewPiece('a', 6, new Rook(board, ColorPiece.WHITE));
     }
 
 
