@@ -17,3 +17,6 @@
 - [x] Classe color alterada
 - [x] Classes King, Rook criadas
 - [x] Classe para tratamento de exceções BoardException criada
+- [x] Classes Board e ChessMatch modificadas
+- [x] Classes ChessException e ChessPosition criadas
+
