@@ -20,3 +20,8 @@
 - [x] Classes Board e ChessMatch modificadas
 - [x] Classes ChessException e ChessPosition criadas
 - [x] Método abstrato que delimita movimentos de uma peça genérica
+- [x] Verifica se existe peça de oponente em dada posição
+
+
+
+>Esse projeto está sendo descontinuado
