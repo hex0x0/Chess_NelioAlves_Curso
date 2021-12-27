@@ -7,6 +7,8 @@ public class Main{
       Scanner sc = new Scanner(System.in);
       ChessMatch ch = new ChessMatch();
 
+      
+
 
       while(true){
         UI.printBoard(ch.getPieces());
@@ -18,14 +20,14 @@ public class Main{
         System.out.println("Target: ");
         ChessPosition target = UI.readChessPosition(sc);
 
-        ChessPiece capturedPiece = ChessMatch.performChessMove(source, target);
+        ChessPiece capturedPiece = ch.performChessMove(source, target);
 
         
 
       }
 
       
-
+      //Estou na aula dos movimentos possíveis das peças
       
 
     }

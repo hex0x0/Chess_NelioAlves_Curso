@@ -19,4 +19,4 @@
 - [x] Classe para tratamento de exceções BoardException criada
 - [x] Classes Board e ChessMatch modificadas
 - [x] Classes ChessException e ChessPosition criadas
-
+- [x] Método abstrato que delimita movimentos de uma peça genérica

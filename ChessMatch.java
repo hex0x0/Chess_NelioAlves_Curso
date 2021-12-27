@@ -30,7 +30,7 @@ public class ChessMatch {
 
     }
 
-    public static ChessPiece performChessMove(ChessPosition sourcePosition, ChessPosition targetPosition){
+    public ChessPiece performChessMove(ChessPosition sourcePosition, ChessPosition targetPosition){
         Position source = sourcePosition.toPosition();
         Position target = targetPosition.toPosition();
 
@@ -49,6 +49,10 @@ public class ChessMatch {
     public void validadeSoucePosition(Position position){
         if(!board.thereIsAPiece(position)){
             throw new BoardException("Não há peça nessa posição!");
+        }
+
+        if(!board.piece(position).isThereAnyPossibleMove()){
+            throw new ChessException("A peça está travada. Não há movimentos possíveis!");
         }
     }
 
